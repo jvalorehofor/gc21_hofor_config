@@ -1,5 +1,9 @@
 {
-  
+      "schemata": [
+    "public",
+    "tag:test",
+    
+  ] ,
   "brandName": "BYGGESAG-temakort",
   
   "aboutBox": "HOFOR, Martin/John leger "
