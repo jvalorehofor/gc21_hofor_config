@@ -25,6 +25,17 @@
                 "attribution": "&copy; SDFE & Hofor"
             }
         }
+        {
+            "id": "baggrundskort_std",
+            "name": "GeoDanmark kort, HOFOR styling",
+            "db": "hofor",
+            "host": "https://hofor.gc2.io",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; GeoDK"
+            }
+        }
   
   ]
 }
