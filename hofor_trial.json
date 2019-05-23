@@ -5,5 +5,26 @@
   ] ,
   "brandName": "BYGGESAG-temakort",
   
-  "aboutBox": "HOFOR, Martin/John leger "
+  "aboutBox": "HOFOR, Martin/John leger",
+      
+  "baseLayers":[
+        {
+            "id": "osm",
+            "name": "OSM",
+            "abstract": "<p>Some base layer</p>"
+        },
+
+        {
+            "id": "gc2_io_dk_geodanmark",
+            "name": "GeoDanmark kort, bygnninger og brønde",
+            "db": "hofor",
+            "host": "https://hofor.gc2.io",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; SDFE & Hofor"
+            }
+        }
+  
+  ]
 }
