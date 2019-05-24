@@ -3,11 +3,23 @@
     "public",
     "tag:spildevand"
   ] ,
-  "brandName": "BYGGESAG-temakort",
+  "brandName": "Spildevand-beredskab",
   
-  "aboutBox": "HOFOR, Martin/John leger",
+  "aboutBox": "HOFOR, IT/GIS - John Valore",
       
   "baseLayers":[
+        {
+            "id": "baggrundskort_std.baggrundskort-std",
+            "name": "GeoDanmark kort, HOFOR styling",
+            "db": "hofor",
+            "host": "https://hofor.gc2.io",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; GeoDK"
+            }
+        },
+  
         {
             "id": "osm",
             "name": "OSM",
@@ -24,18 +36,6 @@
                 "maxNativeZoom": 26,
                 "attribution": "&copy; SDFE & Hofor"
             }
-        },
-        {
-            "id": "baggrundskort_std.baggrundskort-std",
-            "name": "GeoDanmark kort, HOFOR styling",
-            "db": "hofor",
-            "host": "https://hofor.gc2.io",
-            "config": {
-                "maxZoom": 26,
-                "maxNativeZoom": 26,
-                "attribution": "&copy; GeoDK"
-            }
         }
-  
   ]
 }
