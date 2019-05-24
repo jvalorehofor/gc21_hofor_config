@@ -19,7 +19,17 @@
                 "attribution": "&copy; GeoDK"
             }
         },
-  
+      {
+            "id": "luftfotoserier.geodanmark_2017_12_5cm",
+            "name": "Luftfoto 2017",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                  "maxZoom": 26,
+                  "maxNativeZoom": 20,
+                  "attribution": "&copy; SDFE"
+            }
+       },
         {
             "id": "osm",
             "name": "OSM",
